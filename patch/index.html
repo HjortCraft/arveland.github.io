@@ -1,0 +1,96 @@
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ArveLand GTA RP Server Patch Notes</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Telex|Open+Sans:700' rel='stylesheet'>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/main.js"></script>
+	    </head>
+
+<body>
+    <script>
+        function timedRefresh(timeoutPeriod) {
+             setTimeout("location.reload(true);",timeoutPeriod);
+        }
+                
+        window.onload = timedRefresh(20000);
+    </script>
+        <script type = "text/javascript">
+            function Redirect2() {
+               window.location = "/login.html";
+            }
+      </script>
+
+
+<nav style="background-color: #30A9DE; "class="navbar navbar-expand-lg navbar-dark">
+        <h3 style=" color: #fff; " >ArveLand GTA RP Server Patch Notes</h3>
+    <div class="container">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="/"index"" class="nav-link">Hjem</a></li>
+                    
+                    <li class="nav-item">
+                            <a id="konto" class="nav-link" href="menu.html">Konto</a>
+                        </li>
+                            </ul>
+                            <p style=" margin-top: 1%; margin-right: 5%; color: white;">Velkommen, <b><span id="user_para2">Plis Logg Inn! ❤️</p></b>
+                        <ul class="nav navbar-nav navbar-right">
+
+                            
+                <li class="nav-item" id="nav-item" >
+                        <div id="verify"style="margin-top: 5%; color:green;"></div></li>
+                        <a class="nav-link" id="verify_btn" onclick="mainApp.verify()">Bekreft Konto</a></li>
+
+                <li class="nav-item" id="nav-item" >
+                        <a id="login" class="nav-link" href="login/">Registrer / Logg inn</a>
+                        <a class="nav-link" id="logout" onclick="mainApp.logout()" href="#">Logg Ut</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+<h1 style=" text-decoration: none; text-align: center; margin-top: 10%;" id="notloggedin_text" ><b> Logg Inn For Å Se Innhold! </b><br><br><a id="notloggedin_text" id="login" class="nav-link" href="login/">Registrer / Logg inn</a></h1>
+
+
+<div id="text_verify" class="main">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-20 patch-nav">
+                <ul style=" margin-top: 10%; ">
+                    <li><h2>2019</h2>
+                        <ul>
+                                <li><a class="active" href="#">v1.2.0</a></li>
+                            <!-- <li><a  href="/patch/v1.1.0.html">v1.1.0</a></li> -->
+                        </ul>
+                </ul>      
+           </div>
+            <div class="col-md-6 col-md-20 patch-content">
+                <h2>Patch Notes - 23 Apr 2019 - v1.2.0</h2>
+                <ul>
+                    <li><p> laget helt nytt utsene på nettsiden alt i fra bunnen av. </p></li>
+                    <li><p> har bare overført det meste av JS koden mine å litt nye ting. </p></li>
+                    <li><p> Fikset mye bugs som var på den gamle så bestemte meg for å bare lage en ny en so mer mer moderende. </p></li>
+                    <li><a href="https://twitch.tv/bamsemoms/"> Twitch Stream! </a></li><br>
+                    <li><a href="https://github.com/BamseMoms"> GitHub.Com </a></li><br>
+                    <li><a href="https://bamsemoms.github.io/"> WebSide </a></li><br>
+                    <li><a href="../#contact"> Kontakt </a></li><br>
+                </ul>
+                <div class="thanks">
+                    <p>Developer,</p>
+                    <p>BamseMoms</p>
+                </div>
+            </div>
+</div>
+
+
+</body>
+</html>
