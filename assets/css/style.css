@@ -19,6 +19,7 @@ body {
 }
 
 img {
+    max-height: 850%;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
